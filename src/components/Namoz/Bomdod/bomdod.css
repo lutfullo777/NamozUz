@@ -1,0 +1,75 @@
+.namoz-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  animation: bomdod 0.8s ease-in-out;
+  background-color: rgba(67, 42, 128, 0.6);
+}
+
+.namoz-container div {
+  min-height: 70vh;
+  margin: 120px 0;
+}
+.namoz-container div p img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+@media (min-width: 800px) {
+  .namoz-container div {
+    width: 80%;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .namoz-container div {
+    width: 85%;
+  }
+  .namoz-container div p img {
+    width: 60%;
+  }
+}
+@media (max-width: 600px) {
+  .namoz-container div {
+    width: 95%;
+  }
+}
+@keyframes bomdod {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.scrollTop {
+  position: fixed;
+  width: 40px;
+  bottom: 100px;
+  right: 20px;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  opacity: 1;
+}
+
+.scrollTop:hover {
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

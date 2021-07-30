@@ -1,0 +1,70 @@
+.time-container {
+  width: 100%;
+  height: 150px;
+}
+
+.namoz-time {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.namoz-time li {
+  background-color: rgba(140, 37, 236, 0.8);
+  border-radius: 7px;
+  box-sizing: border-box;
+  height: 100px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.its-time {
+  height: 130px !important;
+}
+.namoz-time-container {
+  margin: 0 !important;
+  width: 100% !important;
+  min-height: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(140, 37, 236, 0.5);
+}
+.select-region {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  align-items: center;
+  height: 50px;
+  max-width: 600px;
+  width: 100%;
+}
+.select-region li select {
+  width: 200px;
+  border: none;
+  outline: none;
+  height: 25px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .namoz-time li {
+    width: 33%;
+  }
+}
+@media (max-width: 700px) {
+  .namoz-time li {
+    width: 47%;
+  }
+}
+@media (min-width: 1000px) {
+  .namoz-time li {
+    width: 16%;
+  }
+}
