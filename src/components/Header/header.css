@@ -209,7 +209,7 @@
   .header-ul-res {
     animation: 0.3s menu-anime-res ease-in-out;
     width: 300px;
-    height: 400px;
+    height: 350px;
     left: calc(100% - 300px);
   }
 }
