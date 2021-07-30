@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Start from "./components/Onload/start";
 import Header from "./components/Header/header";
 import Bomdod from "./components/Namoz/Bomdod/bomdod";
@@ -27,27 +27,29 @@ function App() {
   };
 
   return (
-    <Router>
+    <HashRouter>
       <Start />
 
       <Header />
       <ScrollButton />
-      <Route path="/" component={Home} exact />
-      <Route path="/developer" component={Developer} />
-      <Route path="/tahorat" component={Tahorat} />
-      <Route path="/gusl" component={Gusl} />
-      <Route path="/bomdod" component={Bomdod} />
-      <Route path="/peshin" component={Peshin} />
-      <Route path="/asr" component={Asr} />
-      <Route path="/shom" component={Shom} />
-      <Route path="/xufton" component={Xufton} />
-      <Route path="/juma" component={Juma} />
-      <Route path="/hayit" component={Hayit} />
-      <Route path="/janoza" component={Janoza} />
-      <Route path="/tarobeh" component={Tarobeh} />
-      <Route path="/nafl" component={Nafl} />
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/developer" component={Developer} />
+        <Route path="/tahorat" component={Tahorat} />
+        <Route path="/gusl" component={Gusl} />
+        <Route path="/bomdod" component={Bomdod} />
+        <Route path="/peshin" component={Peshin} />
+        <Route path="/asr" component={Asr} />
+        <Route path="/shom" component={Shom} />
+        <Route path="/xufton" component={Xufton} />
+        <Route path="/juma" component={Juma} />
+        <Route path="/hayit" component={Hayit} />
+        <Route path="/janoza" component={Janoza} />
+        <Route path="/tarobeh" component={Tarobeh} />
+        <Route path="/nafl" component={Nafl} />
+      </Switch>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 
