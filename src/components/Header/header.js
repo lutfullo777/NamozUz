@@ -23,13 +23,7 @@ const Header = () => {
   const onMenu = (e) => {
     setMenu(!menu);
   };
-  window.onresize = () => {
-    if (window.innerWidth >= 800) {
-      setMenu(true);
-    } else {
-      setMenu(false);
-    }
-  };
+  
 
   return (
     <header className="header">
@@ -99,7 +93,7 @@ const Header = () => {
               </li>
               <li>
                 <Link to="/tarobeh" className="nav-link">
-                  Tarobeh
+                  Taroveh
                 </Link>
               </li>
               <li>
