@@ -12,7 +12,7 @@ const Developer = () => {
           mo'ljallangan. Kimgadir bu saytning yordami teksa bundan xursandman.
           Ushbu websaytda uchragan kamchiliklar uchun uzr so'rab qolaman. <br />
           <br />
-          Foydalanilgan websayt va kitoblar manbada ko'rsatilgan.
+          Foydalanilgan veb-sayt va kitoblar manbada ko'rsatilgan.
         </p>
         <center>
           <h1>E'tiboringiz uchun rahmat!</h1>
