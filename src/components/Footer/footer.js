@@ -101,7 +101,7 @@ const Footer = () => {
               href="https://t.me/uztiger777"
               rel="nofollow noopener noreferrer"
             >
-              Aloqa
+              A'loqa
             </a>
           </li>
           <li>
