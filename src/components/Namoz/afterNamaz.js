@@ -65,6 +65,12 @@ const afterNamaz = () => {
       ikkisining hifzi (tutib turishi) Uni toliqtirmas. U oliy va buyukdir.{" "}
       <br />
       <br />
+      <b style={{ fontSize: "25px" }}>TASBEH</b>
+      <br/>
+      <br/>
+      <b>Subhanalloh </b>(33 marta) <br/>
+      <b>Alhamdulillah </b>(33 marta) <br/>
+      <b>Allohu akbar </b>(33 marta) <br/><br/>
       <b style={{ fontSize: "25px" }}>KALIMAI TAVHID</b>
       <br />
       <br />
